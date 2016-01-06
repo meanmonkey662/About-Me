@@ -20,4 +20,8 @@ class LongboardingViewController : UIViewController
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func changetoHome(sender: UIButton)
+    {
+        performSegueWithIdentifier("toHome", sender: sender)
+    }
 }

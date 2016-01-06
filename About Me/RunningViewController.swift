@@ -20,4 +20,8 @@ class RunningViewController : UIViewController
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    @IBAction func changetoRockclimbing(sender: UIButton)
+    {
+        performSegueWithIdentifier("toRockclimbing", sender: sender)
+    }
 }

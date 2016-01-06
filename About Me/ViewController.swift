@@ -21,5 +21,9 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func changetoRunning(sender: UIButton)
+    {
+        performSegueWithIdentifier("toRunning", sender: sender)
+    }
 }
 
